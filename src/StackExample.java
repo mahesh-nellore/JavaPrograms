@@ -1,12 +1,5 @@
-import java.util.ArrayList;
-import java.util.Enumeration;
-import java.util.HashSet;
 import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Set;
 import java.util.Stack;
-import java.util.Vector;
 
 public class StackExample {
 

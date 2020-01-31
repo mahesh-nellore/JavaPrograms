@@ -5,7 +5,6 @@ public class ReverseOnlyAlphacharactersInString {
 		String str = "M@he,sh";
 		char [] values = str.toCharArray();
 		
-		String n = "";
 		int l=0;
 		int r = str.length()-1;
 		

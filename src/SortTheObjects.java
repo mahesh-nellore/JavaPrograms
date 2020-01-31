@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 class Employee{
@@ -25,12 +27,8 @@ public class SortTheObjects {
 		list.add(emp3);
 		list.add(emp4);
 		
-		list.sort((o1,o2) -> o1.empname.compareTo(o2.empname));
-		
-		
-		for (Employee employee : list) {
-			System.out.println(employee.empname);
-		}
+		Collections.sort(list, (e1,e2)->e1.empname.compareTo(e2.empname));
+		list.stream().forEach(e->System.out.println(e.empid+"----> "+e.empname));
 
 	}
 
