@@ -1,5 +1,6 @@
 package interviewPrograms;
 
+import java.util.ArrayList;
 
 public class ConsecutiveOccurrences {
 
@@ -23,6 +24,8 @@ public class ConsecutiveOccurrences {
 		}
 		
 		System.out.println("maximum occurence of a character ->"+ch+" : "+count);
+		
+		
 		
 
 	}
