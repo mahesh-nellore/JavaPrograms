@@ -1,4 +1,7 @@
 package interviewPrograms;
+
+
+
 class Node{
 	int data;
 	Node next;
@@ -83,8 +86,17 @@ public class SinglyLinkedList {
 		list.insertAtStart(22);
 		list.insertAt(2, 34);
 		list.deleteAt(2);
-		list.show();
+		while(list.head!=null) {
+			System.out.println(list.head.data);
+			list.head = list.head.next;
+			
+		}
 
 	}
+	
+	
+		
+		
+	}
 
-}
+
