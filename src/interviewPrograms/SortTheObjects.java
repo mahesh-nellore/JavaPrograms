@@ -11,7 +11,7 @@ class Employee{
 	public Employee(String empname, int empid) {
 		this.empname = empname;
 		this.empid = empid;
-		System.out.println(empid+"  "+empname);
+		//System.out.println(empid+"  "+empname);
 	}
 }
 public class SortTheObjects {

@@ -1,4 +1,4 @@
-package interviewPrograms;
+package datastructure;
 import java.util.Arrays;
 
 
