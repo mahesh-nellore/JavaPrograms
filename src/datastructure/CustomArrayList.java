@@ -81,6 +81,9 @@ public class CustomArrayList {
 		
 		System.out.println("Get the value at the index 5::"+ml.getIndex(5));
 		
+		System.out.println("Capacity::"+ml.capacity());
+		System.out.println("Length::"+ml.size());
+		
 		
 	}
 
